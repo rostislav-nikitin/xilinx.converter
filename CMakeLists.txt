@@ -9,3 +9,4 @@ add_executable(convert src/main.cpp)
 target_link_libraries(convert pugixml)
 
 configure_file(src/tree.xml ./ COPYONLY)
+configure_file(src/bus_muxer.sch ./ COPYONLY)
